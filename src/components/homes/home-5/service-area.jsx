@@ -7,9 +7,9 @@ import React from 'react';
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
-    title: <div>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </div>,
+    title: <div>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span></div>,
     description: <div>Access the insights you need to move products and <br /> make decisions.</div>,
-    btn_text: "View Details",
+    btn_text: "View All Services",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
 
@@ -32,7 +32,7 @@ const ServiceArea = () => {
                               <p className="pb-20">
                                 {description}
                               </p>
-                              <Link className="tp-btn-yellow-lg text-black" href="/service-details">{btn_text}</Link>
+                              <Link className="tp-btn-yellow-lg text-black" href="/service">{btn_text}</Link>
                            </div>
                         </div>
                         <div className="col-lg-6">
