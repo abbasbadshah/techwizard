@@ -19,8 +19,8 @@ import integration_img_14 from "../../../../public/assets/img/feature/fea-circle
 import Image from 'next/image';
 
 const integration_content = {
-    title:<><span>Featured</span> <br /> In all Over the World</>,
-    des: <>WP ERP has been already featured in many resourceful and <br /> popular media all over the world.</>,
+    title:<div><span>Featured</span> <br /> In all Over the World</div>,
+    des: <div>WP ERP has been already featured in many resourceful and <br /> popular media all over the world.</div>,
 
     integration_img: [
         {id: 1, img: integration_img_1, cls: "1 d-none d-lg-block"},
@@ -42,7 +42,7 @@ const integration_content = {
 const {title, des, integration_img}  = integration_content
 const IntegrationArea = () => { 
     return (
-        <>
+        <div>
             <div className="tp-intigration-area tp-intigration-five-space fix">
                   <div className="container">
                      <div className="row">
@@ -70,7 +70,7 @@ const IntegrationArea = () => {
                      </div>
                   </div>
                </div>
-        </>
+        </div>
     );
 };
 

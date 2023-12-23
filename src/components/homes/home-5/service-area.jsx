@@ -7,8 +7,8 @@ import React from 'react';
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
     sub_title: "What we Offer",
-    title: <>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </>,
-    description: <>Access the insights you need to move products and <br /> make decisions.</>,
+    title: <div>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </div>,
+    description: <div>Access the insights you need to move products and <br /> make decisions.</div>,
     btn_text: "View Details",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
@@ -16,7 +16,7 @@ const {bg_img, sub_title, title, description, btn_text}  = service_content
 
 const ServiceArea = () => {
     return (
-        <>
+        <div>
             <div className="tp-service-area tp-services-five-item-bg-color p-relative fix">
                   <div className="container-fluid p-0">                    
                      <div className= "tp-service-five-bg" 
@@ -65,7 +65,7 @@ const ServiceArea = () => {
                      </div>
                   </div>
                </div>
-        </>
+        </div>
     );
 };
 
