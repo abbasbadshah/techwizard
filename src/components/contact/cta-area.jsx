@@ -4,7 +4,7 @@ import React from 'react';
 const cta_content ={ 
      bg_img: "/assets/img/cta/cta-bg.jpg",
      title: "Try our service now!",
-     description: <div>Eyerything you need to accept cord payments and grow your business <br /> anywhere on the planet.</div>,
+     description: <div>Let Techwizard Transform Your Vision into Reality.</div>,
      btn_text: "Get Started Now",
 }
 const {bg_img, title, description, btn_text}  = cta_content

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import img_1 from "../../../public/assets/img/contact/contact-icon-sm-5.png";
+import img_1 from "../../../public/assets/img/contact/email.png";
 import img_2 from "../../../public/assets/img/contact/contact-icon-sm-6.png";
 import img_3 from "../../../public/assets/img/contact/contact-icon-sm-7.png";
 import Image from 'next/image';
@@ -14,23 +14,23 @@ const office_data = [
         id: 1, 
         cls:"",
         img: img_1,
-        location: "Colombia",
-        address: <div>Bogota D.C., Colombia, b. a 181 <br /> C No. 930 Ap 202</div>,
+        location: "Email ",
+        address: <div>info@techwizard.com <br /> contact@techwizard.com</div>,
     },
     {
         id: 2, 
         cls:"p-relative",
         img: img_2,
-        badge: "Main Office",
-        location: "France",
-        address: <div>9 Pearse Street, Kinsale,Cork, <br /> P17 AH66, Ireland</div>,
+        badge: false,
+        location: "Call",
+        address: <div>9131123541<br />&nbsp;</div>,
     },
     {
         id: 3, 
         cls:"",
         img: img_3,
-        location: "Egypt",
-        address: <div>Av. Cordoba 1309, 3'A, City of <br /> Buenos Aires, Egypt</div>,
+        location: "Address",
+        address: <div>21A, Near Madan hospital, <br /> Majitha Road, Sehaj Avenue</div>,
     },
 ]
 

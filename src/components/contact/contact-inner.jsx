@@ -28,7 +28,7 @@ const inner_content = {
     {
       id: 3,
       icon: icon_3,
-      title: "35Park Avenue, Uk",
+      title: "Indore, India",
       link: "https://www.google.com.bd/maps/@23.7806365,90.4193257,12z",
     },
   ],

@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 
 
-import logo_black from "../../../public/assets/img/logo/logo-black.png";
-import logo_white from "../../../public/assets/img/logo/logo-white.png";
+import logo_black from "../../../public/assets/img/logo/tw-logo.png";
+import logo_white from "../../../public/assets/img/logo/tw-logo.png";
 
 
 const HeaderSix = ({ style_2 = false }) => {
@@ -16,7 +16,7 @@ const HeaderSix = ({ style_2 = false }) => {
    const [sidebarOpen, setSidebarOpen] = useState(false)
 
    return (
-      <>
+      <div>
          <header>
             <div id="header-sticky" className={`header-bottom__area header-sticky-bg-2 header-bottom__transparent header-bottom__bdr z-index-5 ${style_2 ? 'inner-header-2' : ''} ${sticky ? "header-sticky" : ''}`}>
                <div className="container">
@@ -25,12 +25,12 @@ const HeaderSix = ({ style_2 = false }) => {
                         <div className="header-bottom__logo">
                            {style_2 ? <Link href="/">
                               <Image src={logo_black} alt="theme-pure" />
-                           </Link> : <><Link className="white-logo" href="/">
+                           </Link> : <div><Link className="white-logo" href="/">
                               <Image src={logo_white} alt="theme-pure" />
                            </Link>
                               <Link className="black-logo" href="/">
                                  <Image src={logo_black} alt="" />
-                              </Link></>
+                              </Link></div>
                            }
                         </div>
                      </div>
@@ -66,7 +66,7 @@ const HeaderSix = ({ style_2 = false }) => {
          </header>
          <Offcanvus sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
-      </>
+      </div>
    );
 };
 

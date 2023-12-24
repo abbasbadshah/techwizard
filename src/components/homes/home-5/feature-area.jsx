@@ -5,7 +5,7 @@ import feature_data from '@/src/data/feature-data';
 
 
 const feature_content = {
-    title: <div>About Customer <span>Stories</span></div>,
+    title: <div>About Our Main<span> Integrations</span></div>,
     des: <div>Take your business to the next level with <span>09</span> accessible premium  extensions <br /> & different features</div>,
     integraton_title: "What you will get",
     integraton_des: <div>Take your business to the next level with  <span> 09</span> accessible premium  extensions <br /> & different features</div>,
@@ -45,7 +45,7 @@ const FeatureArea = ({style_integraton}) => {
                                 <div className="tp-feature-five-wrapper">
                                     <div className={`tp-feature-five-item tp-feature-five-item-${item.color} text-center z-index`}>
                                         <div className="tp-feature-five-icon p-relative">
-                                            <Image src={item.img} alt="theme-pure" />
+                                            <Image src={item.img} alt="techwizard" />
                                             <div className={`tp-feature-five-shape-color tp-feature-five-shape-color-${item.color}`}></div>
                                         </div>
                                         <div className="tp-feature-five-content">
