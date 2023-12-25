@@ -146,7 +146,7 @@ const PriceArea = () => {
                                                 <p>{item.description}</p>
                                              </div>
                                              <div className="tp-price-top-title-wrapper">
-                                                <h4>${item.price} <span>/mo</span></h4>
+                                                <h4>${item.price} <span>/month</span></h4>
                                                 <p>{item.date}</p>
                                                 <Link className="tp-btn-service" href="#">Get Started</Link>
                                              </div>
@@ -215,7 +215,7 @@ const PriceArea = () => {
                                                 <p>{item.description}</p>
                                              </div>
                                              <div className="tp-price-top-title-wrapper">
-                                                <h4>${item.price_yearly} <span>/mo</span></h4>
+                                                <h4>${item.price_yearly} <span>/Year</span></h4>
                                                 <p>{item.date}</p>
                                                 <Link className="tp-btn-service" href="#">Get Started</Link>
                                              </div>

@@ -7,7 +7,7 @@ import ServiceDetailsArea from "./service-details-area";
 
 const ServiceDetails = () => {
   return (
-    <>
+    <div>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -19,7 +19,7 @@ const ServiceDetails = () => {
           <FooterFive style_contact={true} style_team={true} bg_style={false} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

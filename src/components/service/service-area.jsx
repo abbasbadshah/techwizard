@@ -8,19 +8,19 @@ import service_icon_2 from "../../../public/assets/img/service/service-shape-3-1
 
 
 const service_content = {
-    title: <>Accounting Software <br /> That Handles it All.</>,
-    btn_text: <>See All Features</>,
+    title: <div>Accounting Software <br /> That Handles it All.</div>,
+    btn_text: <div>See All Features</div>,
  
     bg_img: "/assets/img/service/service-3-bg.png",
     service_title: "CRM Management",
-    service_info: <>Generate, Manage, and Convert leads <br /> into Customers. Automatically</>,
+    service_info: <div>Generate, Manage, and Convert leads <br /> into Customers. Automatically</div>,
  }
  const {title, btn_text, bg_img, service_title, service_info}  = service_content
 
 
 const ServiceArea = () => {
     return (
-        <>
+        <div>
             <div className="tp-service-area pb-120 z-index">
                <div className="container">
                   <div className="row">
@@ -58,7 +58,7 @@ const ServiceArea = () => {
                         </div>
                      </div>
 
-                     {service_data.slice(17, 24).map((item, i)  => 
+                     {service_data.slice(17, 28).map((item, i)  => 
                         <div key={i} className="col-xl-4 col-lg-6 col-md-6 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
                         <div className="tp-service-sm-item mb-30 d-flex flex-column justify-content-between">
                            <div className="tp-service-sm-icon">
@@ -78,7 +78,7 @@ const ServiceArea = () => {
                   </div>
                </div>
             </div>
-        </>
+        </div>
     );
 };
 

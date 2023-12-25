@@ -7,15 +7,15 @@ import img from "../../../../public/assets/img/faq/faq-1.png"
 
 const faq_content = {
     sub_title: "Support",
-    title: <>Frequently <br /> Asked Questions</>,
-    description: <>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</>,
+    title: <div>Frequently <br /> Asked Questions</div>,
+    description: <div>Sed ut perspiciatis unde omnis iste natus error <br /> sit voluptatem accusantium.!</div>,
     btn_text: "Get in Touch",
 }
 const {sub_title, title, description, btn_text }  = faq_content
 
 const FaqArea = ({style_service}) => {
     return (
-        <>
+        <div>
             <div className="tp-faq-area pt-140 pb-120 fix">
                <div className="container">
                   <div className="row"> 
@@ -46,7 +46,7 @@ const FaqArea = ({style_service}) => {
                   </div>
                </div>
             </div>
-        </>
+        </div>
     );
 };
 

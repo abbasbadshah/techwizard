@@ -50,10 +50,10 @@ const card_content = {
         },
     ],
 
-    title: <>Manage <span>All your Cards</span> in one Place</>,
-    description: <>Digital products are where it’s at! There are so many benefits
+    title: <div>Manage <span>All your Cards</span> in one Place</div>,
+    description: <div>Digital products are where it’s at! There are so many benefits
     to selling digital products. It’s easy to get started and they <br />
-    can be extremely profitable</>,
+    can be extremely profitable</div>,
     btn_text: "Get Started Free"
 }
 const {card_images, title, description, btn_text}  = card_content
@@ -62,7 +62,7 @@ const {card_images, title, description, btn_text}  = card_content
 
 const CardArea = ({style_service}) => {
     return (
-        <>
+        <div>
         <div className="tp-card-area tp-card-space pt-175 pb-185">
                <div className="container">
                   <div className="row">
@@ -90,7 +90,7 @@ const CardArea = ({style_service}) => {
                </div>
             </div>
             
-        </>
+        </div>
     );
 };
 
