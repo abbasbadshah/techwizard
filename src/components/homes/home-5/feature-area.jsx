@@ -50,10 +50,6 @@ const FeatureArea = ({style_integraton}) => {
                                         </div>
                                         <div className="tp-feature-five-content">
                                             <h4 className="tp-feature-five-title-sm">{item.title}</h4>
-                                            <p>{item.description}</p>
-                                        </div>
-                                        <div className="tp-feature-five-btn">
-                                            <Link className="tp-btn-purple" href="/service-details">Learn More</Link>
                                         </div>
                                     </div>
                                 </div>

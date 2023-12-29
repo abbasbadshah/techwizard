@@ -193,10 +193,10 @@
             padding-left: 30px;
         }
         @media #{$md}{
-            padding-left: 0px;
+            padding-left: 15px;
         }
         @media #{$xs}{
-            padding-left: 0px;
+            padding-left: 20px;
         }
     }
     &-space-2{
@@ -205,10 +205,10 @@
             padding-left: 30px;
         }
         @media #{$md}{
-            padding-left: 0px;
+            padding-left: 15px;
         }
         @media #{$xs}{
-            padding-left: 0px;
+            padding-left: 20px;
         }
     }
     &-space-3{
@@ -217,7 +217,7 @@
             padding-left: 35px;
         }
         @media #{$xs}{
-            padding-left: 0px;
+            padding-left: 20px;
         }
     }
 }
