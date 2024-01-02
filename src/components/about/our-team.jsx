@@ -55,22 +55,6 @@ const TeamArea = ({bg_style}) => {
                               <h3 className={`${bg_style ? "tp-section-title mb-0 text-black" : "tp-section-title-4"}`}>{title}</h3>
                            </div>
                         </div>
-                        {bg_style ?
-                           <div className="col-xl-6 col-lg-6 col-md-6">
-                              <div className="tp-team-top-content text-center text-md-end">
-                                 <Link className="tp-btn-inner tp-btn-hover alt-color-orange" href="/team-details">
-                                    <span>View All</span>
-                                    <b></b>
-                                 </Link>
-                              </div>
-                           </div>
-                           :
-                           <div className="col-xl-6 col-lg-6  wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
-                              <div className="tp-team-top-content d-flex justify-content-md-start justify-content-end">
-                                 <p>{des}</p>
-                              </div>
-                           </div>
-                        }
                      </div>
                   </div>
                   <div className="row">

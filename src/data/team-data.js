@@ -15,28 +15,28 @@ const team_data = [
         cls: 1,
         img: team_img_1,
         name: "Abbas Badshah",
-        job_title:  "CEO & Founder",
+        job_title:  "Website & Ecommerce Website Head",
     },
     {
         id: 2, 
         cls: 2,
         img: team_img_2,
         name: "Mohammed Kikadosa",
-        job_title:  "Co-Founder & Development Head",
+        job_title:  "Dashboard and Frontend Head",
     },
     {
         id: 3, 
         cls: 3,
         img: team_img_3,
         name: "Husain Tarana",
-        job_title:  "Co-Founder & Designing head",
+        job_title:  "UI/UX & Graphic Designer Head",
     },
     {
         id: 4, 
         cls: 4,
         img: team_img_4,
         name: "Abizer Plastic",
-        job_title:  "SEO & Digital Marketing",
+        job_title:  "SEO & Digital Marketing Head",
     },
 
     {
