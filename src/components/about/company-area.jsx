@@ -49,9 +49,9 @@ const CompanyArea = () => {
                            <div className="col-md-4 col-sm-4 mb-40">
                               <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
                                  <div className="ab-company-fun-fact">
-                                    <span>USED BY</span>
-                                    <h4>11,000<em>+</em></h4>
-                                    <p>Creators</p>
+                                    <span>Up To</span>
+                                    <h4>100<em>+</em></h4>
+                                    <p>Projects Delivered</p>
                                  </div>
                               </div>
                            </div>

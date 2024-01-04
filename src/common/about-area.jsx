@@ -42,13 +42,13 @@ const about_data =[
 const about_content = {
     title: "OVER 150K+ CLIENT",
     sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    des: <div>Excepteur sint occaecat cupidatat officia non proident <br />
+    sunt in culpa qui deserunt.!</div>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <div>Various analysis options.</div>,
+        <div>Page Load (time, size, number of requests).</div>,
+        <div> Big data analysis.</div>,
     ],
     btn_text: "About Us",
 
@@ -58,7 +58,7 @@ const {title, sub_title, des, about_list, btn_text}  = about_content
 
 const AboutArea = () => {
     return (
-        <>
+        <div>
             <div className="tp-about__area tp-about__pt-pb pt-100 pb-160">
                <div className="container">
                   <div className="row align-items-center">
@@ -94,7 +94,7 @@ const AboutArea = () => {
                   </div>
                </div>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -12,7 +12,7 @@ import ServiceArea from "./service-area";
 
 const Service = () => {
   return (
-    <>
+    <div>
       <HeaderSix />
       <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -29,7 +29,7 @@ const Service = () => {
           <FooterFive style_contact={true} style_team={true} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
