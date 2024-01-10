@@ -3,7 +3,7 @@ import React from "react";
 
 const FunFactArea = () => {
   return (
-    <>
+    <div>
       <div className="tp-fun-fact-area tp-fun-fact-2 pt-100 pb-60">
         <div className="container">
           <div className="row">
@@ -20,7 +20,7 @@ const FunFactArea = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

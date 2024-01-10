@@ -18,7 +18,6 @@ import ExpertiseArea from "./expertise";
 const HomeFive = () => {
   return (
     <ContextProvider>
-      <AnimateMouse />
       <HeaderFive />
       <div id="smooth-wrapper">
         <div id="smooth-content">

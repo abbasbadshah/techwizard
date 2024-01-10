@@ -10,7 +10,7 @@ const VideoArea = () => {
   
   return (
  
-    <>
+    <div>
       <div className="tp-vedio-area p-relative pt-120">
         <div className="container-fluid">
           <div className="row justify-content-center">
@@ -59,7 +59,7 @@ const VideoArea = () => {
         videoId={"_RpLvsA1SNM"}
       />
       {/* video modal end */}
-    </>
+    </div>
   );
 };
 

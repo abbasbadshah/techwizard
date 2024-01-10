@@ -8,14 +8,14 @@ import shape_2 from "../../../../public/assets/img/cta/cta-shape-5-2.png";
 const business_content = {
     bg_img: "/assets/img/cta/cta-bg-5-1.png",
     sub_title: "All-in-one Business Manager",
-    title: <>Supercharge Your Growing <br /> <span>Business</span> </>,
+    title: <div>Supercharge Your Growing <br /> <span>Business</span> </div>,
     btn_text: "Get Started Free"
 
 }
 const {bg_img, sub_title, title, btn_text}  = business_content
 const BusinessBox = () => {
     return (
-        <>
+        <div>
         <div className="tp-cta-area pt-120 pb-120 mb-120 tp-cta-five-bg p-relative" style={{backgroundImage: `url(${bg_img})`}}>
                <div className="tp-cta-five-shape-1 d-none d-md-block">
                   <Image src={shape_1} alt="theme-pure" />
@@ -37,7 +37,7 @@ const BusinessBox = () => {
                      </div>
                   </div>
                </div>            
-        </>
+        </div>
     );
 };
 

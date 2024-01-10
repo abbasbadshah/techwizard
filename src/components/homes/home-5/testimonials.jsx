@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 const testimonial_content  = {
     bg_img: "/assets/img/testimonial/testi-bg-3-1.png",
-    title: <><span>Kind Words</span><br />from our Customers</>
+    title: <div><span>Kind Words</span><br />from our Customers</div>
 }
 const {bg_img , title}  = testimonial_content
 
@@ -58,10 +58,10 @@ const testimonial_data = [
         img: testimonial_img_1, 
         name: "Rudra Ghosh",
         job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
+        description: <div>We get absolutely raving reviews 
         from our sales and customer support 
         teams using close. Even our co-
-        founders are very happy.</>,
+        founders are very happy.</div>,
 
     },
     {
@@ -69,10 +69,10 @@ const testimonial_data = [
         img: testimonial_img_2, 
         name: "Rudra Ghosh",
         job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
+        description: <div>We get absolutely raving reviews 
         from our sales and customer support 
         teams using close. Even our co-
-        founders are very happy.</>,
+        founders are very happy.</div>,
 
     },
     {
@@ -80,10 +80,10 @@ const testimonial_data = [
         img: testimonial_img_3, 
         name: "Rudra Ghosh",
         job_title: "Founder & CEO Dulalix",
-        description: <>“Softuch helps me keep a clean,
+        description: <div>“Softuch helps me keep a clean,
         organized ledger that I can access
         anywhere. The UI is so intuitive that
-        anyone can use it,</>,
+        anyone can use it,</div>,
 
     },
     {
@@ -91,10 +91,10 @@ const testimonial_data = [
         img: testimonial_img_4, 
         name: "Rudra Ghosh",
         job_title: "Founder & CEO Dulalix",
-        description: <>We get absolutely raving reviews 
+        description: <div>We get absolutely raving reviews 
         from our sales and customer support 
         teams using close. Even our co-
-        founders are very happy.</>,
+        founders are very happy.</div>,
 
     },
 ]
@@ -103,7 +103,7 @@ const testimonial_data = [
 const TestimonialArea = () => {
     const sliderRef = useRef(null);
     return (
-        <>
+        <div>
             <div className="tp-testimonial-area tp-testimonial-3-mlr pb-110">
                <div className="tp-testimonial-3-bg pt-110 fix" 
                style={{backgroundImage: `url(${bg_img})`}}
@@ -169,7 +169,7 @@ const TestimonialArea = () => {
                   </div>
                </div>
             </div>
-        </>
+        </div>
     );
 };
 

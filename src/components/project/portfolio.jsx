@@ -29,7 +29,7 @@ const Portfolio = () => {
 
 
     return (
-        <>
+        <div>
             <div className="portfolio-area pt-100 pb-90">
                <div className="container">
                   <div className="row">
@@ -68,7 +68,7 @@ const Portfolio = () => {
                   </div>
                </div>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -21,7 +21,7 @@ const plan_content = {
     ],
 
     sub_title: "INVOICES",
-    title: <>Simple <span>Tools</span>, Powerful Effects</>, 
+    title: <div>Simple <span>Tools</span>, Powerful Effects</div>, 
 
 }
 const {img_box, sub_title, title}  = plan_content
@@ -30,7 +30,7 @@ const accordion_data = [
     {
         id: 1,
         question: "Dashboard",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        answer: <div>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</div> ,
         accordion_id: "headingOne",
         collapsed: "collapsed",
         data_bs_target: "#collapseOne",
@@ -42,7 +42,7 @@ const accordion_data = [
     {
         id: 2,
         question: "Task Management",
-        answer: <>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</> ,
+        answer: <div>ERP provides a complete leave management system for your HR. Upcoming holidays and remaining leave balances.</div> ,
         accordion_id: "headingTwo",
         collapsed: "",
         data_bs_target: "#collapseTwo",
@@ -55,7 +55,7 @@ const accordion_data = [
 ]
 const PlanArea = () => {
     return (
-        <>
+        <div>
             <div onContextMenu={e => e.preventDefault()} className= "tp-plan-area tp-plan-2-space fix">
                   <div className= "container">
                      <div className= "row align-items-center">
@@ -110,7 +110,7 @@ const PlanArea = () => {
                      </div>
                   </div>
                </div>
-        </>
+        </div>
     );
 };
 

@@ -20,7 +20,7 @@ const team_data = [
     {
         id: 2, 
         cls: 2,
-        img: team_img_2,
+        img: team_img_1,
         name: "Mohammed Kikadosa",
         job_title:  "Dashboard and Frontend Head",
     },
