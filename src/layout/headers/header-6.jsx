@@ -7,8 +7,8 @@ import React, { useState } from 'react';
 import NavMenu from './nav-menu';
 
 
-import logo_black from "../../../public/assets/img/logo/tw-logo.png";
-import logo_white from "../../../public/assets/img/logo/tw-logo.png";
+import logo_black from "../../../public/assets/img/logo/gt-logo-n.webp";
+import logo_white from "../../../public/assets/img/logo/gt-logo.webp";
 
 
 const HeaderSix = ({ style_2 = false }) => {
